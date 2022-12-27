@@ -34,7 +34,7 @@ public class NewsManager : MonoBehaviour
            newsText.text = "";
            foreach (NewsItem item in news.items)
            {
-               newsText.text += item.date + "\n" + item.title;
+               newsText.text += item.date + "\n" + item.title + "\n";
            }
        }
     Debug.Log(newsText.text);
